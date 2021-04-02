@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player/youtube';
 import { withTranslation, useTranslation } from "react-i18next";
 
 
-import tedxvid from '../assets/tedxvid.mp4';
 import Navbar from '../components/Navbar';
 
 function Contacts() {

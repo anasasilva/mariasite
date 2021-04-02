@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player/youtube';
 import {withTranslation, useTranslation} from "react-i18next";
 import db  from "../firebase-config";
 
-import video1 from '../assets/hindemith.mp4';
 import Navbar from '../components/Navbar';
 
 import FacebookIcon from '@material-ui/icons/Facebook';
