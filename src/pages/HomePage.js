@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ReactPlayer from 'react-player/youtube';
 import {withTranslation, useTranslation} from "react-i18next";
 import db  from "../firebase-config";
 
@@ -36,8 +37,8 @@ function HomePage() {
       <Navbar home={true} />
       <div className="gallery-page">
       <div>
-        <div className="w-75 mx-auto">
-        <video className="w-100" src={video1} autoPlay="true" />
+        <div className="w-100 mx-auto">
+          <ReactPlayer className="w-50 mx-auto" playing url='https://www.youtube.com/watch?v=uaaQOpPO3pY' controls={false}/>
         </div>
         <div className="imgFooter">
           <a href="mailto:mariasasousa@hotmail.com" className="white"><EmailIcon className="noRightPadding socialIcon"/></a>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player/youtube';
 import { withTranslation, useTranslation } from "react-i18next";
 
 
@@ -67,8 +68,8 @@ function Contacts() {
             </button>
           </form>
         </div>
-        <div className="w-50 mx-5 my-auto">
-        <video className="w-120" src={tedxvid} autoPlay="true" />
+        <div className="w-50 mx-auto my-auto">
+          <ReactPlayer playing url='https://www.youtube.com/watch?v=WSPv78f6lKg' controls={false}/>
         </div>
       </div>
     </div>
