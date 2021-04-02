@@ -1,0 +1,19 @@
+{
+    "navbar": {
+        "home": "Home",
+        "gallery": "Galeria",
+        "contacts": "Contactos",
+        "schedule": "Agenda"
+    },
+    "schedule": {
+        "nextshows": "Próximos espetáculos"
+    },
+    "contacts": {
+        "reason": "Razão",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "send": "Enviar",
+        "collaborations": "Colaborações",
+        "solos": "Solos"
+    }
+}
