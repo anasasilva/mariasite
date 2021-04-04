@@ -3,7 +3,8 @@
         "home": "Home",
         "gallery": "Gallery",
         "contacts": "Contacts",
-        "schedule": "Schedule"
+        "schedule": "Schedule",
+        "language": "Language"
     },
     "schedule": {
         "nextshows": "Next shows"
@@ -14,6 +15,7 @@
         "message": "Message",
         "send": "Send",
         "collaborations": "Collaborations",
-        "solos": "Solos"
+        "solos": "Solos",
+        "ohter": "Other"
     }
 }

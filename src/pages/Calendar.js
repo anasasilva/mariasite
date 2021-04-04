@@ -41,18 +41,22 @@ function Calendar() {
   return (
     <div className="homepage">
       <Navbar calendar={true} darkNavBar={false} />
-      <div className="content-div">
-        <div className="text-div">
-          <div>
-            <h3 className="mb-4 pb-2">{t('schedule.nextshows')}</h3>
+      <div className="content-div row justify-content-center">
+        <div className="text-div col">
+          { loading ? <div/> : 
+          <div className="all-lg-screen">
+            <div>
+            <h3 className="mb-4 pb-2 text-font d-block">{t('schedule.nextshows')}</h3>
             {i18n.language === "pt" ? 
-              Object.values(shows).map(value => <p>{value["data"]}, {value["nome"]}, {value["local"]}</p>)
+              Object.values(shows).map(value => <p className="d-block">{value["data"]}, {value["nome"]}, {value["local"]}</p>)
             :
-              Object.values(showsENG).map(value => <p>{value["data"]}, {value["nome"]}, {value["local"]}</p>)
+              Object.values(showsENG).map(value => <p className="d-block">{value["data"]}, {value["nome"]}, {value["local"]}</p>)
             }
+            </div>
           </div>
+          }
         </div>
-        <img src={ojmaria} className="image-div" alt="logo" />
+        <img src={ojmaria} className="image-div d-none d-lg-block col" alt="logo" />
       </div>
     </div>
   );

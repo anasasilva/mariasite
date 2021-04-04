@@ -34,23 +34,24 @@ function HomePage() {
   return (
     <div className="homepage">
       <Navbar home={true} />
-      <div className="gallery-page">
+      <div className="mt">
       <div>
         <div className="w-100 mx-auto">
-          <ReactPlayer className="w-50 mx-auto" playing url='https://www.youtube.com/watch?v=uaaQOpPO3pY' controls={false}/>
+          <ReactPlayer className="d-none d-md-block w-50 mx-auto" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0' controls={false}/>
+          <ReactPlayer className="d-md-none w-100 mx-auto" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0' controls={false}/>
         </div>
         <div className="imgFooter">
-          <a href="mailto:mariasasousa@hotmail.com" className="white"><EmailIcon className="noRightPadding socialIcon"/></a>
-          <a href="http://www.instagram.com/mariasasilva97" className="white"><InstagramIcon className="socialIcon"/></a>
           <a href="https://www.facebook.com/maria.sasilva.98" className="white"><FacebookIcon className="socialIcon"/></a>
+          <a href="http://www.instagram.com/mariasasilva97" className="white"><InstagramIcon className="socialIcon"/></a>
+          <a href="mailto:mariasasousa@hotmail.com" className="white"><EmailIcon className="noRightPadding socialIcon"/></a>
         </div>
       </div>
       <div>
-        <div className="text text-font w-75 mx-auto text-center mt-4 pt-2">
+        <div className="text text-font w-75 mx-auto text-justify text-sm-center mt-4 pt-2">
           { i18n.language == "en" ? 
-          <p>{ptBiography}</p>
-          :
           <p>{engBiography}</p>
+          :
+          <p>{ptBiography}</p>
           }
         </div>
       </div>

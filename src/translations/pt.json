@@ -3,7 +3,8 @@
         "home": "Home",
         "gallery": "Galeria",
         "contacts": "Contactos",
-        "schedule": "Agenda"
+        "schedule": "Agenda",
+        "language": "Lingua"
     },
     "schedule": {
         "nextshows": "Próximos espetáculos"
@@ -14,6 +15,7 @@
         "message": "Mensagem",
         "send": "Enviar",
         "collaborations": "Colaborações",
-        "solos": "Solos"
+        "solos": "Solos",
+        "other": "Outro"
     }
 }
