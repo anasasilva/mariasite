@@ -35,18 +35,18 @@ function HomePage() {
     <div className="homepage">
       <Navbar home={true} />
       <div className="mt">
-      <div>
-        <div className="w-100 mx-auto">
-          <ReactPlayer className="d-none d-md-block w-50 mx-auto" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0'/>
+      <div className="pt-3">
+        <div className="w-100 mx-auto mt-5">
+          <ReactPlayer className="d-none d-md-block w-50 mx-auto mt-5" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0'/>
         </div>
-        <div className="imgFooter">
+        <div className="imgFooter py-4">
           <a target="_blank" href="https://www.facebook.com/maria.sasilva.98" className="white"><FacebookIcon className="socialIcon"/></a>
           <a target="_blank" href="http://www.instagram.com/mariasasilva97" className="white"><InstagramIcon className="socialIcon"/></a>
           <a target="_blank" href="mailto:mariasasousa@hotmail.com" className="white"><EmailIcon className="noRightPadding socialIcon"/></a>
         </div>
       </div>
       <div>
-        <div className="text text-font w-75 mx-auto text-justify text-sm-center mt-4 pt-2">
+        <div className="text mb-5 bolder w-75 mx-auto text-justify text-sm-center mt-4 pt-2">
           { i18n.language == "en" ? 
           <p>{engBiography}</p>
           :
