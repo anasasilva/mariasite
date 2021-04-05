@@ -37,7 +37,7 @@ function HomePage() {
       <div className="mt">
       <div className="pt-3">
         <div className="w-100 mx-auto mt-5">
-          <ReactPlayer className="d-none d-md-block w-50 mx-auto mt-5" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0'/>
+          <ReactPlayer className="w-50 mx-auto mt-5" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0'/>
         </div>
         <div className="imgFooter py-4">
           <a target="_blank" href="https://www.facebook.com/maria.sasilva.98" className="white"><FacebookIcon className="socialIcon"/></a>
