@@ -41,9 +41,9 @@ function HomePage() {
           <ReactPlayer className="d-md-none w-100 mx-auto" playing loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0' controls={false}/>
         </div>
         <div className="imgFooter">
-          <a href="https://www.facebook.com/maria.sasilva.98" className="white"><FacebookIcon className="socialIcon"/></a>
-          <a href="http://www.instagram.com/mariasasilva97" className="white"><InstagramIcon className="socialIcon"/></a>
-          <a href="mailto:mariasasousa@hotmail.com" className="white"><EmailIcon className="noRightPadding socialIcon"/></a>
+          <a target="_blank" href="https://www.facebook.com/maria.sasilva.98" className="white"><FacebookIcon className="socialIcon"/></a>
+          <a target="_blank" href="http://www.instagram.com/mariasasilva97" className="white"><InstagramIcon className="socialIcon"/></a>
+          <a target="_blank" href="mailto:mariasasousa@hotmail.com" className="white"><EmailIcon className="noRightPadding socialIcon"/></a>
         </div>
       </div>
       <div>
