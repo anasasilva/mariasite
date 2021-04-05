@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, p, label {
 
 .homepage {
   /* text-align: center; */
-  background-color: black;
+  background-color: #111;
 }
 
 .title {
@@ -63,11 +63,11 @@ h1, h2, h3, h4, h5, p, label {
 }
 
 .black {
-  color: black;
+  color: #111;
 }
 
 .black-bg {
-  background-color: black;
+  background-color: #111;
 }
 
 .z-100 {
@@ -185,7 +185,7 @@ textarea {
 
 .submit-btn {
   border-color: white;
-  background-color: black;
+  background-color: #111;
   color: white;
 }
 
@@ -193,7 +193,7 @@ textarea {
 .submit-btn:hover {
   border-color: white;
   background-color: white;
-  color: black;
+  color: #111;
 }
 
 .img-gallery {
@@ -238,11 +238,11 @@ a.dropdown-item {
 }
 
 .black{
-  color: black;
+  color: #111;
 }
 
 .black:hover{
-  color: black;
+  color: #111;
 }
 
 .all-screen{
@@ -271,7 +271,7 @@ div.all-screen {
 }
 
 .black #basic-nav-dropdown::after{
-  color: black;
+  color: #111;
 }
 
 .white #basic-nav-dropdown::after{
