@@ -102,7 +102,7 @@ function Contacts() {
           </form>
         </div>
         <div className="d-none d-lg-block col mx-auto my-auto">
-          <ReactPlayer playing url='https://www.youtube.com/watch?app=desktop&v=RRnCJiyzv-s' controls={false}/>
+          <ReactPlayer playing url='https://www.youtube.com/watch?app=desktop&v=RRnCJiyzv-s' />
         </div>
       </div>
     </div>
