@@ -5,7 +5,7 @@ import "./styles/App.css";
 import HomePage from './pages/HomePage';
 import Contacts from './pages/Contacts';
 import Gallery from './pages/Gallery';
-import Calendar from './pages/Calendar';
+import Projects from './pages/Projects';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/calendar" component={Calendar} />
+            <Route exact path="/projects" component={Projects} />
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/contacts" component={Contacts} />
             {/* <Route component={NotFound} /> */}

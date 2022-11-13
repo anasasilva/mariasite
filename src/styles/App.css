@@ -1,11 +1,18 @@
+:root {
+  --bg-color: rgb(255, 255, 242);
+  --gold-letter: rgb(255, 231, 174);
+  --gold-border: rgb(212, 175, 55);
+}
+
 body {
-  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #111 !important;
+  background-color: var(--bg-color) !important;
 }
 
 code {
@@ -15,14 +22,19 @@ code {
 
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Handlee&family=Kaushan+Script&family=Patua+One&display=swap');
 
-h1, h2, h3, h4, h5, p, label {
-  color: white;
+h1, h2, h3, h4, h5 {
+  color: black;
+  /* text-shadow: -1px 0 var(--gold-border), 0 1px var(--gold-border), 1px 0 var(--gold-border), 0 -1px var(--gold-border); */
 }
 
-.homepage {
-  /* text-align: center; */
-  background-color: #111;
+.homepage, nav.bg-dark {
+  background-color: var(--bg-color) !important;
 }
+
+/* span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org…dth='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+
+} */
 
 .title {
   font-family: 'Kaushan Script', cursive;
@@ -49,9 +61,9 @@ h1, h2, h3, h4, h5, p, label {
 }
 
 .socialIcon {
-  transform: scale(1.8);
-  margin-right: 1rem;
-  margin-left: 1rem;
+  transform: scale(1.3);
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
 }
 
 .noRightPadding {
@@ -59,26 +71,11 @@ h1, h2, h3, h4, h5, p, label {
 }
 
 .white {
-  color: white !important;
-}
-
-.black {
-  color: #111;
-}
-
-.black-bg {
-  background-color: #111;
+  color: black !important;
 }
 
 .z-100 {
   z-index: 100;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .HomePage-logo {
-    animation: HomePage-logo-spin infinite 20s linear;
-  }
 }
 
 .header {
@@ -92,21 +89,8 @@ h1, h2, h3, h4, h5, p, label {
   padding-right: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: white;
+  background-color: var(--bg-color);;
   z-index: 100;
-}
-
-@keyframes HomePage-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-a {
-  cursor: pointer !important;
 }
 
 
@@ -122,10 +106,6 @@ a {
   .text p {
     font-size: 1.3rem;
   }
-}
-
-.text-font {
-  font-family: 'Patua One', cursive;
 }
 
 .video {
@@ -147,6 +127,15 @@ a {
   height: 100vh;
   /* background-image: url('../assets/background.jpeg');
   background-repeat: repeat-x;  */
+}
+
+.img-size {
+  width: 40%;
+  margin: auto;
+}
+
+.img-contact {
+  height: 100vh;
 }
 
 @media (min-width: 576px){
