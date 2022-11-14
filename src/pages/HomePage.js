@@ -18,7 +18,7 @@ function HomePage() {
         <div className="pt-3">
           <div className="d-flex">
             {/* <img className="img-size" src={homeImg}/> */}
-            <ReactPlayer className="w-50 mx-auto mt-5" playing loop url='https://youtu.be/LseIXZgCLvo'/>
+            <ReactPlayer className="mx-auto mt-5" playing url='https://www.youtube.com/watch?v=LseIXZgCLvo&t=30s'/>
           </div>
         </div>
         <div>

@@ -20,7 +20,8 @@ code {
     monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Handlee&family=Kaushan+Script&family=Patua+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Handlee&family=Kaushan+Script&family=Patua+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 h1, h2, h3, h4, h5 {
   color: black;
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5 {
 } */
 
 .title {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Dancing Script', cursive;
   /* font-family: 'Handlee', cursive; */
 }
 
@@ -122,11 +123,17 @@ h1, h2, h3, h4, h5 {
   font-size: 3rem;
 }
 
-.content-div {
-  display: flex;
-  height: 100vh;
-  /* background-image: url('../assets/background.jpeg');
-  background-repeat: repeat-x;  */
+@media (min-width: 576px){
+  .content-div {
+    display: flex;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 576px){
+  .mt-contacts {
+    margin-top: 10em;
+  }
 }
 
 .img-size {
@@ -195,12 +202,6 @@ textarea {
   margin-top: 5em;
 }
 
-@media (max-width: 576px){
-  .gallery-page {
-    margin-top: 5em;
-  }
-}
-
 
 .language-select a {
   background-color: transparent;
@@ -255,7 +256,7 @@ div.all-screen {
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
   border-color: white;
 }
 

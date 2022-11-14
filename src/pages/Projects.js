@@ -14,7 +14,7 @@ function Projects() {
             <ReactPlayer className="w-100 mx-auto mt-5" loop url='https://www.youtube.com/watch?v=6IfiDbX5cC4'/>
           </div>
           <div className="col-md-5 col-12">
-            <ReactPlayer className="w-100 mx-auto mt-5" loop url='https://www.youtube.com/watch?v=6IfiDbX5cC4'/>
+            <ReactPlayer className="w-100 mx-auto mt-5" loop url='https://www.youtube.com/watch?v=Y91-CIY9X0Q'/>
           </div>
           <div className="col-md-5 col-12">
             <ReactPlayer className="w-100 mx-auto mt-5" loop url='https://www.youtube.com/watch?v=LjaIy1QW9r0'/>
